@@ -15,31 +15,6 @@ class FizzBuzz
 		@rules.select{|r| r.can_handle(number) == true}.first.get_string()
 	end
 
-	# def get_string(number)
-	# 	resudef get_string(number)
-	# 	result = number.to_s
-	# 	if (number % 3 == 0) && (number % 5 == 0)
-	# 		result = "fizzbuzz"
-	# 	end	
-	# 	if number % 3 == 0
-	# 		result = "fizz"
-	# 	end
-	# 	if number % 5 == 0
-	# 		result = "buzz"
-	# 	end
-	# 	result
-	# endlt = number.to_s
-	# 	if (number % 3 == 0) && (number % 5 == 0)
-	# 		result = "fizzbuzz"
-	# 	end	
-	# 	if number % 3 == 0
-	# 		result = "fizz"
-	# 	end
-	# 	if number % 5 == 0
-	# 		result = "buzz"
-	# 	end
-	# 	result
-	# end
 end
 
 class RuleOf3
