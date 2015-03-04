@@ -1,0 +1,516 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"contains"
+			],
+			[
+				"def",
+				"deft	def test_ .. end"
+			],
+			[
+				"dead",
+				"dead_cells〔variable〕"
+			],
+			[
+				"see",
+				"seed_cells〔variable〕"
+			],
+			[
+				"dea",
+				"dead_cells〔variable〕"
+			],
+			[
+				"cell",
+				"cell11"
+			],
+			[
+				"living_",
+				"livinig_cells〔variable〕"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"next",
+				"next_generation_cells〔variable〕"
+			],
+			[
+				"require",
+				"require_relative〔function〕"
+			],
+			[
+				"pro",
+				"prova〔variable〕"
+			],
+			[
+				"e",
+				"ea	each { |e| .. }"
+			],
+			[
+				"in",
+				"initialize"
+			],
+			[
+				"ce",
+				"cells"
+			],
+			[
+				"ass",
+				"assert_equal"
+			],
+			[
+				"cel",
+				"cells"
+			],
+			[
+				"de",
+				"def	def … end"
+			],
+			[
+				"c",
+				"cla	class .. initialize .. end"
+			],
+			[
+				"cla",
+				"cla	class .. end"
+			],
+			[
+				"a",
+				"asn	assert_nil(..)"
+			],
+			[
+				"cl",
+				"cla	class .. end"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "readme.txt\n\nRules\n*****\n\n1. Any live cell with fewer than two live neighbours dies,\n   as if caused by underpopulation.\n2. Any live cell with more than three live neighbours dies,\n   as if by overcrowding.\n3. Any live cell with two or three live neighbours lives\n   on to the next generation.\n4. Any dead cell with exactly three live neighbours becomes\n   a live cell.",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Unix",
+				"name": "readme.txt"
+			}
+		},
+		{
+			"file": "test/test.rb",
+			"settings":
+			{
+				"buffer_size": 2673,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/generation.rb",
+			"settings":
+			{
+				"buffer_size": 2689,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 356.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"co",
+				"Toggle Comment"
+			],
+			[
+				"idne",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"loca",
+				"RubyTest: Extract Local Variable"
+			],
+			[
+				"local",
+				"RubyTest: Extract Local Variable"
+			],
+			[
+				"tes",
+				"RubyTest: Show Test Panel"
+			],
+			[
+				"INDE",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"IN",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings - Default"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"settin",
+				"Preferences: Settings - Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/mcenere/Workspace/kata_ruby/game_of_life",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/lib",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test"
+	],
+	"file_history":
+	[
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/lib/cell.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test/test_dead_cell_with_exactly_three_neighbours_born(MyTest) [/home/mcenere/Workspace/kata_ruby/game_of_life/test/test.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test/test_cell_with_one_neighbour_dies(MyTest) [/home/mcenere/Workspace/kata_ruby/game_of_life/test/test.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test/test_cell_with_more_than_three_neighbours_dies(MyTest)",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test/    /home/mcenere/Workspace/kata_ruby/game_of_life/test/test.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/lib/generation.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test/test.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/cell.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/generation.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test/NoMethodError",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test.rb",
+		"/home/mcenere/Workspace/kata_ruby/README.md",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/    /home/mcenere/Workspace/kata_ruby/game_of_life/test.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/game_of_life.sublime-project",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/NoMethodError",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test_cell_with_two_neighbours_lives(MyTest) [/home/mcenere/Workspace/kata_ruby/game_of_life/test.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test_cell_with_one_neighbour_dies(MyTest)",
+		"/home/mcenere/Workspace/kata_ruby/fizz_buzz/test_fizzbuzz.rb",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/test_add_cell_to_generation(MyTest)",
+		"/home/mcenere/Workspace/kata_ruby/game_of_life/NameError",
+		"/home/mcenere/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/mcenere/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/mcenere/.config/sublime-text-3/Packages/RubyTest/Default (Linux).sublime-keymap",
+		"/home/mcenere/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/mcenere/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/mcenere/.config/sublime-text-3/Packages/RubyTest/Default.sublime-keymap",
+		"/home/mcenere/.config/sublime-text-3/Packages/RubyTest/RubyTest.sublime-settings",
+		"/home/mcenere/.config/sublime-text-3/Packages/User/RubyTest.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"qualcosa",
+			"}\"\n",
+			"add",
+			"neighbours_of",
+			"!\"\n",
+			")}\"\n",
+			"neighbours_of",
+			"x",
+			"		\n",
+			"	\n",
+			"		\n",
+			"class",
+			"		\n",
+			"s = \"esse due\"\n		print \"print \\\"#{s}\\\"\"		\n		puts \"put \\\"#{s}\\\"\"\n",
+			"shell",
+			"\n{",
+			"comme",
+			"prova",
+			" ",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"push",
+			"living_neighbours_of"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"auto_name": "readme.txt",
+							"default_dir": "/home/mcenere/Workspace/kata_ruby/game_of_life",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/test.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2637,
+								2637
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1586.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/generation.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 282.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "game_of_life.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 390.0,
+		"selected_items":
+		[
+			[
+				"",
+				"test_me"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 167.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
